@@ -6,17 +6,6 @@ Created on Sat Apr  3 20:19:25 2021
 @author: samac
 """
 
-"""
-For a given positive number num, identify the palindrome formed 
-by performing the following operations:-
-
-    Add num and its reverse
-    Check whether the sum is palindrome or not. 
-    If not, add the sum and its reverse and repeat the process until a 
-    palindrome is obtained
-"""
-
-
 #this will reverse the string
 def Palindrome(n):
     rev=0
@@ -48,16 +37,3 @@ def ReverseAndAdd(n):
     
 
 ReverseAndAdd(int(input()))
-
-
-
-
-
-
-
-
-
-
-
-
-
